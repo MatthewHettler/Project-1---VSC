@@ -10,14 +10,21 @@ body {
     background-position: center;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
 header {
     height: 118px;
     text-align: center;
 }
 
 nav {
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.338);
     height: 40px;
+    text-align: center;
 }
 
 main {
@@ -31,12 +38,6 @@ main {
 footer {
     background-color: greenyellow;
     height: 100px;
-}
-
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1024px;
 }
 
 h1 {
